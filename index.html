@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <title>Your Creative Blog Tutorial Random Quote Generator Embed HTML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <!-- <center> -->
+    <p class="h2">Quote of the Day</p>
+    <div class="instructions">
+        <p>You can click refresh icon below to get a new quote.</p>
+    </div>
+
+
+
+    <div class="quotebox">
+        <br>Quote of the day:<br><br>
+        <script language="JavaScript">
+            var Quotation = new Array()
+
+            Quotation[0] = "If you want to fly give up everything that weighs you down.";
+            Quotation[1] = "You know why strangers support you more than people you know? Because people you know have a tough time accepting you come from the same place they're still in.";
+            Quotation[2] = "And, when you want something, all the universe conspires in helping you to achieve it.";
+            Quotation[3] = "I didn't feel like I was gifted or had any natural ability. I just worked my butt off and I was passionate and dedicated.";
+            Quotation[4] = "I hope I show people that they shouldn't settle for something they're not happy with.";
+            Quotation[5] = "The universe likes speed, don't hesitate.";
+            Quotation[6] = "Choose to live your ideal life today. If you've been thinking about making a change in your life, NOW is the time to explore to make this happen.";
+            Quotation[7] = "Consciousness: the state of being conscious; awareness of one's own existence, sensations, thoughts.";
+            Quotation[8] = "If you think you've peaked, find a new mountain.";
+            Quotation[9] = "Old ways won't open new doors.";
+            Quotation[10] = "Has a bee ever landed on you, and instead of getting scared, you appreciate the possibility it confused you for a flower?";
+            Quotation[11] = "For a star to be born, there is one thing that must happen: a gaseous nebula must collapse. So collapse. Crumble. This is not your destruction, this is your birth.";
+            Quotation[12] = "You don't have to be in a box. Let go of your imagined self-concept. Who you really are cannot be defined. Forget what you think you are.";
+            Quotation[13] = "It's no use going back to yesterday, because I was a different person then - Lewis Carroll";
+
+
+
+            var Q = Quotation.length;
+            var whichQuotation = Math.round(Math.random() * (Q - 1));
+            function showQuotation() { document.write(Quotation[whichQuotation]); }
+            showQuotation();
+        </script>
+
+
+    </div><br>
+    <div class="btn">
+        <button onClick="window.location.href=window.location.href">Get a New Quote</button>
+    </div>
+    </div>
